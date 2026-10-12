@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0pxs;
+    background-color:rgb(0, 0, 0);
+}
+
+
+nav a {
+    border-right: 2px solid black;
+    padding-right: 12px ;
+    background-color: rgb(19, 122, 206);
+}
+nav a:last-child {
+    border: 0px solid black;
+    background-color: rgb(19, 122, 206);
+}
+
+#bannerimg {
+    display: flex;
+    justify-self: center;
+    padding: 12px;
+    max-height: 405px;
+}
+
+
+#LoginForm {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+#uname {
+    display: inline-block;
+    left: 150px;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #1f1f1f ;
+    color: #d0ff4d;
+}
+
+#LoginBtn {
+    display: flex;
+    justify-content: center;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    background-color: #1f1f1f;
+    color: #d0ff4d;
+}
+
+#LoginBtn:hover {
+    opacity: 0.8;
+}
+
+#cancelbtn {
+    position: relative;
+    left: 58px;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    
+}
+
+#ImgLogin {
+    text-align: center;
+    margin: 24px 0px 12px 0px;
+}
+
+img.Account {
+    width: 40%;
+    border-radius: 50%;
+    height: 50%;
+}
+
+#container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    #cancelbtn {
+        width: 100%;
+    }
+    
+}
