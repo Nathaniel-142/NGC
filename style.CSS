@@ -327,64 +327,6 @@ span.psw {
     padding: 0;
 }
 
-#events-Grids {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #00ffff;
-    margin: 30px;
-    padding: 12px;
-    color: #D0FF4D;
-    justify-content: center;
-    background-color: aqua;
-    gap: 12px;
-    align-items: center;
-    border-radius: 25px 25px 0px 0px;
-    place-items: center;
-    text-align: center;
-}
-
-#events-Grids div {
-    padding: 12px 100px;
-    border-radius: 25px;
-    margin: 30px;
-    height: 300px;
-    font-size: 18px;
-}
-
-.ticket-types {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 20px;
-    padding: 15px;
-    color: #D0FF4D;
-}
-
-.standard-card {
-    border: 1px solid white;
-    width: 300px;
-    padding: 15px;
-    height: 220px;
-    border-radius: 25px;
-}
-
-.VIP-card {
-    border: 1px solid white;
-    width: 300px;
-    padding: 15px;
-    height: 220px;
-    border-radius: 25px;
-
-}
-
-.journalist-card {
-    border: 1px solid white;
-    width: 300px;
-    padding: 15px;
-    height: 220px;
-    border-radius: 25px;
-
-}
-
 @media screen and (max-width: 300px) {
     span.psw {
         display: block;
